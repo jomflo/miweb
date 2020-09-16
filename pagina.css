@@ -1,0 +1,203 @@
+/*#########################      body       ############################*/
+body
+{
+    background-color: rgb(167, 177, 139); /*color de fondo del cuerpo de la pagina*/
+    width: 100%;
+}
+.cabecerabody
+{
+    background-color: rgb(64, 78, 74);
+    text-align: center;
+    margin: 0px 5px 10px 5px;
+    border-radius: 0px 0px 10px 10px;
+
+}
+.cabecera /*Cabecera del body*/
+{
+    color: rgb(194, 194, 214) ;
+    text-shadow: rgb(10, 14, 14) 4px 3px;
+    padding: 10px 10px 20px 10px;
+
+}
+.logo
+{
+   
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.barramenu /*la barra de menu*/
+{
+    margin: 0px 5px;
+	text-align: center;
+    padding: 2px 0;
+    background-color: black;
+    
+}
+.barramenu a{ /*Los elementos a que tienen un padre .barrademenu*/
+	text-decoration: none;
+	font-weight: bold;
+    padding:3px 15px 3px 15px;
+    color: white;
+}
+
+.barramenu a:hover /* cuando se pasa el puntero sobre los elementos a */
+{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+.row
+{
+    margin:10px 5px;
+    background-color: rgb(124, 126, 126);
+    /*border: 1px solid black;*/
+}
+.columna1
+{
+    background-color: rgb(146, 170, 161);
+    /*border: 1px solid green;*/
+    float: left;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 0px;
+
+}
+.columna2
+{
+    margin-left:10px;
+    margin-bottom: 10px;
+    float: left;
+}
+.columna3
+{
+    float: left;
+    padding: 2px;
+    border-left:1px solid rgb(88, 86, 86);
+    width: 100%;
+}
+.tituloizquierdo
+{
+    color: black;
+    font-weight: bold;
+    margin-left: 0px;
+    padding-left: 5px;
+    background-color: cornflowerblue;
+    width: 100%;
+    text-align: center;
+}
+.columna1 a
+{
+    text-decoration: none;
+   padding:3px 10px 3px 10px;
+    color: rgb(124, 6, 6);
+    font-weight: bold;
+}
+.columna1 a:hover
+{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+#buscar
+{
+    height: 25px;
+    margin-right: 3px;
+    margin-left: 10px;
+    width: 80%;
+}
+.btnbuscar
+{
+margin-left: 40px;
+height: 30px;
+margin: 5px 5px 5px 40px;
+}
+
+/*LATERAL DERECHO*/
+.titulonovedades
+{
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    background-color: cornflowerblue;
+    text-align: center;
+}
+.columna3 p
+{
+    text-decoration: none;
+   padding:3px 10px 3px 10px;
+    color: rgb(250, 250, 250);
+}
+.masnovedades a, .descargar a
+{
+color: rgb(204, 5, 5);
+}
+#introduccion1
+{
+    font-size: 20px;
+    text-align: center;
+    border-radius: 8px;
+    page-break-inside: 5px;
+}
+#introduccion
+{
+    text-align: center;
+    color: rgb(141, 6, 6);
+    font-size: 20px;
+    background-color: rgb(118, 123, 128);
+    margin-top: 15px;
+    border-radius: 8px;
+    padding-left: 6px;
+}
+#desarrollo
+{
+color: rgb(27, 25, 25);
+font-size: 18px;
+}
+.destinosyofertas
+{
+    background-color: rgb(119, 126, 126);
+    padding: 20px 8px;
+}
+#introduccion2
+{
+    font-size: 20px;
+    text-align: center;
+    border-radius: 8px;
+    page-break-inside: 5px;
+    color: rgb(52, 52, 168);
+}
+.boton
+{
+    text-align-last: center;
+    margin-bottom: 20px;
+}
+.fotos
+{
+    padding: 3px;
+    background-color: rgb(98, 102, 102);
+    border: 1px solid rgb(88, 83, 83);
+}
+.foto1, .foto2, .foto3
+{
+    padding: 5px;
+}
+
+.pie
+{
+    /*float: left;*/
+    background-color: rgb(115, 154, 187);
+    color: rgb(17, 17, 17);
+    margin:20px 5px 30px 5px;
+    text-align: center;
+    padding: 10px;
+}
+.pie a
+{
+    color: rgb(240, 231, 231);
+    font-weight: bold;
+    font-size: 18px;
+}
+.barramenu, .pie
+{
+    border-radius: 10px;
+}

@@ -1,0 +1,14 @@
+body
+{
+	background-color: green;
+	text-align: center;
+	color: silver;
+	font-size: 30px;
+}
+body label
+{
+	background-color: red;
+	float: left;
+	width: 100%;
+	margin-top: 50px;
+}
